@@ -1,17 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sign Up Form</title>
-    <link rel="stylesheet" href="sign-in.css">
-</head>
-<body>
+    <link rel="stylesheet" href="sign-in.css" />
+  </head>
+  <body>
     <div class="form-container">
-        <section class="input-container">
+      <section class="input-container">
+        <div class="input-content">
+          <h2>Sign Up</h2>
+          <p>Please fill in this form to create an account!</p>
+          <hr />
+        </div>
+        <div class="input-field">
+          <input
+            type="text"
+            name="full_name"
+            id="first"
+            placeholder="First Name"
+          />
+          <input
+            type="text"
+            name="full_name"
+            id="last"
+            placeholder="Last Name"
+          />
+          <input type="email" name="email" id="email" placeholder="Email" />
+          <input
+            type="password"
+            name="password"
+            id="psw"
+            placeholder="Password"
+          />
+          <input
+            type="password"
+            name="password"
+            placeholder="Confirm Password"
+            id="confirm-psw"
+          />
+          <div class="check-box">
+            <input type="checkbox" name="terms" id="check" />
+            <label for="terms"
+              >I accept <a href="#">Terms of Use</a><span>&nbsp; & </span
+              ><a href="#">Privacy Policy</a></label
+            >
+          </div>
 
-        </section>
+          <button class="btn">Sign Up</button>
+        </div>
+      </section>
+      <p class="acct-txt">
+        Already have an Account?
+        <a href="#" style="color: white; text-decoration: underline"
+          >Login Here</a
+        >
+      </p>
     </div>
-</body>
+  </body>
 </html>
