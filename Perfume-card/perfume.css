@@ -31,6 +31,7 @@
 .text-container {
   width: 50%;
   margin-left: 30px;
+  margin-right: 30px;
 }
 .heading {
   padding-top: 20px;
@@ -94,7 +95,7 @@ svg {
 }
 
 @media only screen and (max-width: 600px) {
-  .container{
+  .container {
     width: 100vw;
     height: 100vh;
   }
@@ -107,7 +108,7 @@ svg {
   .image-container1 {
     display: none;
   }
-  .mobile{
+  .mobile {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
   }
@@ -116,8 +117,10 @@ svg {
   }
 }
 @media only screen and (min-width: 601px) {
-  .image-container2{
+  .image-container2 {
     display: none;
   }
+  .text-container {
+    width: 100vw;
+  }
 }
-
