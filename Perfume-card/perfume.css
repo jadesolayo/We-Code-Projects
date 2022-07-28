@@ -83,6 +83,7 @@
   background-color: hsl(158, 36%, 37%);
   color: hsl(0, 0%, 100%);
   font-size: 15px;
+  align-items: center;
 }
 .add-to-cart-btn:hover {
   background-color: hsl(212, 21%, 14%);
@@ -97,7 +98,6 @@ svg {
 @media only screen and (max-width: 600px) {
   .container {
     width: 100vw;
-    height: 100vh;
   }
   .card-container {
     width: 75vw;
@@ -119,8 +119,5 @@ svg {
 @media only screen and (min-width: 601px) {
   .image-container2 {
     display: none;
-  }
-  .text-container {
-    width: 100vw;
   }
 }
