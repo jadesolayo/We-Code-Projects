@@ -1,2 +1,3 @@
-# We-Code-Projects
-These are some cool projects done with html and css only
+This is a sign up page created by me.
+It was created with html and css only
+Thank you
